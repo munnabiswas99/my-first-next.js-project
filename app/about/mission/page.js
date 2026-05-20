@@ -8,8 +8,8 @@ const page = () => {
     return (
         <div>
             <h1 className='my-2'>This is mission page</h1>
-            <Image src={img1} alt='dashboard' placeholder='blur'></Image>
-            <Button></Button>
+            <Image src={img1} alt='dashboard' placeholder='blur' width={400} />
+            <Button />
         </div>
     );
 };
