@@ -6,6 +6,7 @@ const BlogPage = async ({params}) => {
     if(id === '5'){
         notFound();
     }
+    
     return (
         <div>
             Blog is is: {id}

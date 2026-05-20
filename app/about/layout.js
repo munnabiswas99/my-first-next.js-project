@@ -6,7 +6,7 @@ const layout = ({ children }) => {
     <div>
       <nav className="my-6 font-semibold text-xl">
         <ul className="flex gap-6">
-            <li><Link href='/about/mission'>Missionnn</Link></li>
+            <li><Link href='/about/mission'>Mission</Link></li>
             <li><Link href='/about/vision'>Vision</Link></li>
         </ul>
       </nav>

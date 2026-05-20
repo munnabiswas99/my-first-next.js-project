@@ -1,10 +1,12 @@
+import Button from '@/app/components/Button';
 import React from 'react';
 
 const page = () => {
-    throw new Error("There was an error");
+    // throw new Error("There was an error");
     return (
         <div>
-            This is mission page
+            <h1 className='my-2'>This is mission page</h1>
+            <Button></Button>
         </div>
     );
 };
