@@ -1,11 +1,12 @@
+import getAllPostData from '@/lib/getAllPost';
 import React from 'react';
 
-const page = () => {
+export default async function Posts () {
+    const posts = await getAllPostData();
+    console.log(posts);
     return (
         <div>
-            <h1>All Post here</h1>
+            <h1>All Post here: {posts.length}</h1>
         </div>
     );
 };
-
-export default page;
