@@ -8,7 +8,9 @@ export default async function Posts () {
     return (
         <div>
             <h1>All Post here: {posts.length}</h1>
-            {posts.map(post => <ul key={post.id}><Link href={`/post/${post.id}`}><h1>{post.title}</h1></Link></ul>)}
+            <ul>
+                {posts.map(post => <li key={post.id}><Link href={`/posts/${post.id}`}>{post.title}</Link></li>)}
+            </ul>
         </div>
     );
 };
